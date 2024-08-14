@@ -20,3 +20,13 @@
 	display:flex;
 	clear: both;
 }
+@media screen and (max-width:600px) {
+    .column{
+		display: inline;
+		padding: 0px;
+		margin: 20px;
+		margin-left: 100px;
+		margin-right: 0px;
+		width: 60%;
+		float: inline-start;
+	}
